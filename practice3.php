@@ -18,7 +18,7 @@
 
 <?php
 // 課題３
-$arr = array(1, 3, 5, 7, 9);
+
 function multiply($arr){
     $result = 1;
     
@@ -29,12 +29,14 @@ function multiply($arr){
     }
     return $result;
 }
-echo multiply($arr);
+$array = array(1, 3, 5, 7, 9);
+
+echo multiply($array);
 ?>
 
 <?php
 // 課題３-２
-$arr = array(1, 3, 5, 7, 9);
+$array = array(1, 3, 5, 7, 9);
 function multiply2($arr){
     $result = 1;
     
@@ -43,7 +45,7 @@ function multiply2($arr){
     }
     return $result;
 }
-echo multiply2($arr);
+echo multiply2($array);
 ?>
 
 <?php
